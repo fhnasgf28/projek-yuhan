@@ -64,9 +64,7 @@
     ================================================== -->
 	<section class="intro">
 	<div class="wrapintro">
-		<h1>Affiliates Bootstrap Template</h1>
-		<h2 class="lead">"Affiliates" is a free Bootstrap Template designed & developed by WowThemesNet, best suitable for affiliate marketers.</h2>
-		<a target="_blank" href="https://gum.co/affiliates-html-template" class="btn">Download</a>
+		
 	</div>
 	</section>
 	<!-- Container
@@ -266,7 +264,7 @@
 					<div class="col-md-6 grid-item">
 						<div class="card">
 							<a href="single.html">
-							<img class="img-fluid" src="assets/images/5.jpg" alt="Is Intelligence Enough">
+							<img class="img-fluid" src="{{('assetsFront')}}/assets/images/5.jpg" alt="Is Intelligence Enough">
 							</a>
 							<div class="card-block">
 								<h2 class="card-title"><a href="single.html">Is Intelligence Enough</a></h2>
