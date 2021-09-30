@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="icon" href="{{asset('assetsFront')}}/images/favicon.ico">
-<title>Affiliates | HTML Bootstrap Template</title>
+<link rel="icon" href="assets/images/favicon.ico">
+<title>Asysyahadatain</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,700,700i" rel="stylesheet">
 <link href="{{asset('assetsFront')}}/css/theme.css" rel="stylesheet">
 <!-- Begin tracking codes here, including ShareThis/Analytics -->
 
@@ -23,7 +23,7 @@
 <div class="container">
 	<!-- Begin Logo -->
 	<a class="navbar-brand" href="index.html">
-	<img src="{{asset('assetsFront')}}/images/logo.png" alt="Affiliates - Free Bootstrap Template">
+	<img src="{{asset('assetsFront')}}/images/.png" alt="Affiliates - Free Bootstrap Template">
 	</a>
 	<!-- End Logo -->
 	<!-- Begin Menu -->
@@ -31,7 +31,7 @@
 		<!-- Begin Menu -->
 		<ul class="navbar-nav ml-auto">
 			<li class="nav-item">
-			<a class="nav-link" href="index.html">Home</a>
+			<a class="nav-link" href="index.html">Beranda</a>
 			</li>
 			<li class="nav-item dropdown">
 			<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Post</a>
@@ -41,16 +41,16 @@
 			</div>
 			</li>
             <li class="nav-item">
-			<a class="nav-link" href="category.html">Category</a>
+			<a class="nav-link" href="category.html">Kategori</a>
 			</li>
 			<li class="nav-item">
-			<a class="nav-link" href="about.html">About</a>
+			<a class="nav-link" href="about.html">Berita</a>
 			</li>
 			<li class="nav-item">
-			<a class="nav-link" href="contact.html">Contact</a>
+			<a class="nav-link" href="contact.html">Kajian</a>
 			</li>
 			<li class="nav-item">
-			<a target="_blank" class="nav-link highlight" href="https://gum.co/affiliates-html-template">Download</a>
+			<a target="_blank" class="nav-link highlight" href="#">Download</a>
 			</li>
 		</ul>
 		<!-- End Menu -->
@@ -59,14 +59,49 @@
 </header>
 <!-- End Menu Navigation
 ================================================== -->
-<div class="site-content">
+
 	<!-- Home Jumbotron
     ================================================== -->
-	<section class="intro">
-	<div class="wrapintro">
-		
-	</div>
-	</section>
+	<div class="container">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img class="d-block w-100" src="{{asset('assetsFront')}}/images/copy.jpg" alt="First slide">
+					<div class="carousel-caption d-none d-md-block">
+							<h5>Berita terkini</h5>
+							<p>Pemuda Tersesat menemukan Jalan</p>
+						</div>
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100" src="{{asset('assetsFront')}}/images/yang.jpg" alt="Second slide">
+					<div class="carousel-caption d-none d-md-block">
+							<h5 >Berita terkini</h5>
+							<p>Pemuda Tersesat menemukan Jalan</p>
+						</div>
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100" src="{{asset('assetsFront')}}/images/tahu.jpg" alt="Third slide">
+					<div class="carousel-caption d-none d-md-block">
+							<h5>Berita terkini</h5>
+							<p>Pemuda Tersesat menemukan Jalan</p>
+						</div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+</div>
+    </div>
 	<!-- Container
     ================================================== -->
 	<div class="container">
@@ -84,7 +119,7 @@
 						<div class="row">
 							<div class="col-md-5 wrapthumbnail">
 								<a href="single.html">
-								<div class="thumbnail" style="background-image:url(assets/images/1.jpg);">
+								<div class="thumbnail" style="background-image:url({{asset('assetsFront')}}/images/1.jpg);">
 								</div>
 								</a>
 							</div>
@@ -118,7 +153,7 @@
 						<div class="row">
 							<div class="col-md-5 wrapthumbnail">
 								<a href="single.html">
-								<div class="thumbnail" style="background-image:url({{asset('assetsFront')}}/images/4.jpg);">
+								<div class="thumbnail" style="background-image:url(assets/images/4.jpg);">
 								</div>
 								</a>
 							</div>
@@ -237,7 +272,7 @@
 					<div class="col-md-6 grid-item">
 						<div class="card">
 							<a href="single.html">
-							<img class="img-fluid" src="assets/images/3.jpg" alt="Red Riding Hood">
+							<img class="img-fluid" src="{{asset('assetsFront')}}/images/3.jpg" alt="Red Riding Hood">
 							</a>
 							<div class="card-block">
 								<h2 class="card-title"><a href="single.html">Red Riding Hood</a></h2>
@@ -264,7 +299,7 @@
 					<div class="col-md-6 grid-item">
 						<div class="card">
 							<a href="single.html">
-							<img class="img-fluid" src="{{('assetsFront')}}/assets/images/5.jpg" alt="Is Intelligence Enough">
+							<img class="img-fluid" src="{{asset('assetsFront')}}/images/5.jpg" alt="Is Intelligence Enough">
 							</a>
 							<div class="card-block">
 								<h2 class="card-title"><a href="single.html">Is Intelligence Enough</a></h2>
@@ -365,7 +400,7 @@
 			</div>
 			<div class="col-sm-3">
 				<div class="footer-widget">
-					<h5 class="title">Resources</h5>
+					<h5 class="title">Sumber</h5>
 					<ul>
 						<li><a target="_blank" href="https://m.do.co/c/84c9b45d0c47">Digital Ocean</a></li>
 						<li><a target="blank" href="https://www.cloudways.com/en/pricing.php?id=153986&amp;a_bid=005da123">Cloudways</a></li>
@@ -377,13 +412,13 @@
 			</div>
 			<div class="col-sm-3">
 				<div class="footer-widget">
-					<h5 class="title">Author</h5>
+					<h5 class="title">Asysyahadatain</h5>
 					<ul>
-						<li><a href="https://www.wowthemes.net/premium-themes-templates/">About Us</a></li>
-						<li><a target="_blank" href="https://www.wowthemes.net/affiliate-area/">Affiliates</a></li>
-						<li><a href="https://www.wowthemes.net/terms-and-conditions/">License</a></li>
+						<li><a href="https://www.wowthemes.net/premium-themes-templates/">Tentang Kami</a></li>
+						<li><a target="_blank" href="https://www.wowthemes.net/affiliate-area/">Redaksi</a></li>
+						<li><a href="https://www.wowthemes.net/terms-and-conditions/">Layanan</a></li>
 						<li><a href="https://www.wowthemes.net/blog/">Blog</a></li>
-						<li><a href="https://www.wowthemes.net/support/">Contact</a></li>
+						<li><a href="https://www.wowthemes.net/support/">Kontak</a></li>
 					</ul>
 				</div>
 			</div>
@@ -393,17 +428,17 @@
 					<p>
 						 Download "Affiliates" theme and use it for your next project. If you have a question, a bug report, or if you simply want to say hi, <a href="https://www.wowthemes.net/support/">contact us here</a>.
 					</p>
-					<a href="https://gum.co/affiliates-html-template" target="_blank">Download</a>
+					<a href="#" target="_blank">Download</a>
 				</div>
 			</div>
 		</div>
 		<div class="copyright">
 			<p class="pull-left">
-				 Copyright © 2018 Affiliates HTMT Template
+				 Copyright © 2021 Asysyahadatain
 			</p>
 			<p class="pull-right">
 				<!-- Leave credit to author unless you own a commercial license: https://www.wowthemes.net/freebies-license/ -->
-				<a target="_blank" href="https://www.wowthemes.net/affiliates-free-bootstrap-template/">"Affiliates Template"</a> - Design & Code by WowThemes.net
+				<a target="_blank" href="#">
 			</p>
 			<div class="clearfix">
 			</div>
@@ -417,9 +452,10 @@
 
 <!-- JavaScript
 ================================================== -->
-<script src="{{asset('assetsFront')}}ssets/js/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="{{asset('assetsFront')}}/js/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="{{asset('assetsFront')}}/js/ie10-viewport-bug-workaround.js"></script>
 <script src="{{asset('assetsFront')}}/js/masonry.pkgd.min.js"></script>
 <script src="{{asset('assetsFront')}}/js/theme.js"></script>
