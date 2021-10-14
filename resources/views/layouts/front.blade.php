@@ -23,7 +23,7 @@
 <div class="container">
 	<!-- Begin Logo -->
 	<a class="navbar-brand" href="index.html">
-	<img src="{{asset('assetsFront')}}/images/.png" alt="Affiliates - Free Bootstrap Template">
+	<img src="{{asset('assetsFront')}}/images/.png" alt="ASysyahadatain">
 	</a>
 	<!-- End Logo -->
 	<!-- Begin Menu -->
@@ -125,12 +125,12 @@
 							</div>
 							<div class="col-md-7">
 								<div class="card-block">
-									<h2 class="card-title"><a href="single.html">We all wait for summer</a></h2>
-									<h4 class="card-text">This is changed. As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have...</h4>
+									<h2 class="card-title"><a href="single.html">Peringatan Maulid Nabi dari Masa Rasulullah hingga Sekarang</a></h2>
+									<h4 class="card-text">This is changed. As I engage in thearound and about the school, I too often find that most college men have...</h4>
 									<div class="metafooter">
                                         <div class="wrapfooter">
 											<span class="meta-footer-thumb">
-											<img class="author-thumb" src="https://www.gravatar.com/avatar/b1cc14991db7a456fcd761680bbc8f81?s=250&d=mm&r=x" alt="John">
+											<img class="author-thumb" src="https://vignette.wikia.nocookie.net/momoland/images/5/5c/Nancy_chiri_chiri.jpg/revision/latest?cb=20190828142330" alt="John">
 											</span>
 											<span class="author-meta">
 											<span class="post-name"><a target="_blank" href="#">John</a></span><br/>
@@ -159,8 +159,8 @@
 							</div>
 							<div class="col-md-7">
 								<div class="card-block">
-									<h2 class="card-title"><a href="single.html">Powerful things you can do with the Markdown editor</a></h2>
-									<h4 class="card-text">There are lots of powerful things you can do with the Markdown editor </h4>
+									<h2 class="card-title"><a href="single.html">Jejak Keindahan Perilaku Nabi Muhammad</a></h2>
+									<h4 class="card-text">There are lots of powerful things you can do with t </h4>
 									<div class="metafooter">
 										<div class="wrapfooter">
 											<span class="meta-footer-thumb">
@@ -221,10 +221,10 @@
 						<!--End mc_embed_signup-->
 					</div>
 					<div class="sidebar-section">
-						<h5><span>Useful</span></h5>
+						<h5><span>Reokomendasi</span></h5>
 						<ul style="list-none;">
-							<li><a target="_blank" href="https://m.do.co/c/84c9b45d0c47">Digital Ocean</a></li>
-							<li><a target="_blank" href="https://www.cloudways.com/en/pricing.php?id=153986&a_bid=005da123">Cloudways</a></li>
+							<li><a target="_blank" href="https://m.do.co/c/84c9b45d0c47">Hikmah di Balik Maulid Hari Senin Rabiul Awwal</a></li>
+							<li><a target="_blank" href="https://www.cloudways.com/en/pricing.php?id=153986&a_bid=005da123">Hikmah Kesalahan Nabi Adam Memakan Buah Khuldi</a></li>
 							<li><a target="_blank" href="https://shareasale.com/r.cfm?b=875645&u=1087935&m=41388&urllink=&afftrack=">Page Speed Test</a></li>
 							<li><a target="_blank" href="https://elementor.com/?ref=1556">Elementor Page Builder</a></li>
 							<li><a target="_blank" href="https://www.wowthemes.net/category/freebies/">Our Freebies</a></li>
