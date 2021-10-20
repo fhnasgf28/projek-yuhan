@@ -23,7 +23,7 @@
 <div class="container">
 	<!-- Begin Logo -->
 	<a class="navbar-brand" href="index.html">
-	<img src="{{asset('assetsFront')}}/images/.png" alt="ASysyahadatain">
+	<img src="{{asset('assetsFront')}}/images/assy.png" alt="ASysyahadatain">
 	</a>
 	<!-- End Logo -->
 	<!-- Begin Menu -->
@@ -60,7 +60,7 @@
 <!-- End Menu Navigation
 ================================================== -->
 
-	<!-- Home Jumbotron
+	<!-- foto slide 
     ================================================== -->
 	<div class="container">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -71,14 +71,14 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <img class="d-block w-100" src="{{asset('assetsFront')}}/images/copy.jpg" alt="First slide">
+                    <img class="d-block w-100" src="{{asset('assetsFront')}}/images/slide1.jpg" alt="First slide">
 					<div class="carousel-caption d-none d-md-block">
 							<h5>Berita terkini</h5>
-							<p>Pemuda Tersesat menemukan Jalan</p>
+							<p>Maulid Nabi Panguragan Cirebon</p>
 						</div>
                     </div>
                     <div class="carousel-item">
-                    <img class="d-block w-100" src="{{asset('assetsFront')}}/images/yang.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="{{asset('assetsFront')}}/images/slide2.jpeg" alt="Second slide">
 					<div class="carousel-caption d-none d-md-block">
 							<h5 >Berita terkini</h5>
 							<p>Pemuda Tersesat menemukan Jalan</p>
@@ -100,7 +100,9 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-</div>
+	</div>
+
+
     </div>
 	<!-- Container
     ================================================== -->
@@ -110,7 +112,7 @@
             ================================================== -->
 			<section class="featured-posts">
 			<div class="section-title">
-				<h2><span>Featured</span></h2>
+				<h3><span>Article</span></h3>
 			</div>
 			<div class="row listfeaturedtag">
 				<!-- begin post -->
